@@ -4,30 +4,23 @@ project(grid_map_octomap)
 ## Find required packages.
 find_package(ament_cmake REQUIRED)
 find_package(grid_map_cmake_helpers REQUIRED)
-find_package(grid_map_core REQUIRED)      # Ensures your overlay grid_map_core is used.
+find_package(grid_map_core REQUIRED)   # Add this to force your overlay version.
 find_package(OCTOMAP REQUIRED)
 
 message(STATUS "Found Octomap (version ${octomap_VERSION}): ${OCTOMAP_INCLUDE_DIRS}")
 
-###########
-## Build ##
-###########
-
-# Include local include directory.
+## Include local include directories.
 include_directories(include)
-
-# Define dependencies (exclude grid_map_core so we add it separately).
-set(dependencies OCTOMAP)
 
 ## Declare the grid_map_octomap library.
 add_library(${PROJECT_NAME}
   src/GridMapOctomapConverter.cpp
 )
 
-# Process OCTOMAP dependency with ament_target_dependencies.
-ament_target_dependencies(${PROJECT_NAME} SYSTEM ${dependencies})
+## Set up dependencies using ament_target_dependencies for OCTOMAP only.
+ament_target_dependencies(${PROJECT_NAME} SYSTEM OCTOMAP)
 
-# Explicitly link grid_map_core (using plain signature so all target_link_libraries calls are consistent).
+## Explicitly link grid_map_core so that its include directories get propagated.
 target_link_libraries(${PROJECT_NAME} grid_map_core)
 
 #############
@@ -55,19 +48,17 @@ install(
 
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
-  ament_add_gtest(${PROJECT_NAME}-test
+  ament_add_gtest(${PROJECT_NAME}_test
     test/test_grid_map_octomap.cpp
     test/OctomapConverterTest.cpp
   )
-  if(TARGET ${PROJECT_NAME}-test)
-    target_link_libraries(${PROJECT_NAME}-test
-      ${PROJECT_NAME}
-      ${OCTOMAP_LIBRARIES}
-    )
+  if(TARGET ${PROJECT_NAME}_test)
+    target_link_libraries(${PROJECT_NAME}_test ${PROJECT_NAME} ${OCTOMAP_LIBRARIES})
   endif()
 endif()
 
-ament_export_dependencies(${dependencies})
+ament_export_dependencies(OCTOMAP)
 ament_export_include_directories(include ${OCTOMAP_INCLUDE_DIRS})
 ament_export_libraries(${PROJECT_NAME} ${OCTOMAP_LIBRARIES})
 ament_package()
+

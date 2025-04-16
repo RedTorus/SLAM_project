@@ -35,11 +35,11 @@ add_library(${PROJECT_NAME}
   src/iterators/SlidingWindowIterator.cpp
 )
 
-## Specify additional locations of header files
+## Specify include directories
 target_include_directories(${PROJECT_NAME}
   PUBLIC
     "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
-    "$<INSTALL_INTERFACE:include/${PROJECT_NAME}>"
+    "$<INSTALL_INTERFACE:include>"       # Changed from include/${PROJECT_NAME} to include
 )
 
 target_link_libraries(${PROJECT_NAME} PUBLIC Eigen3::Eigen)
@@ -58,9 +58,14 @@ install(
 )
 
 # Install header files from the include folder.
+# This copies the entire "include/" directory as-is (preserving the structure),
+# so if your repository structure is:
+#   include/grid_map_core/...
+# then after installation the headers will be at:
+#   <install>/include/grid_map_core/...
 install(
   DIRECTORY include/
-  DESTINATION include/${PROJECT_NAME}
+  DESTINATION include
   FILES_MATCHING PATTERN "*.hpp"
 )
 
@@ -92,7 +97,7 @@ install(
   DESTINATION lib/cmake/${PROJECT_NAME}
 )
 
-# Export the targets and install the targets file using CMake's EXPORT mechanism.
+# Export targets and install the targets file.
 install(
   EXPORT export_${PROJECT_NAME}
   FILE ${PROJECT_NAME}Targets.cmake
@@ -105,7 +110,6 @@ install(
 #############
 
 if(BUILD_TESTING)
-  # Linting setup with ament_lint_auto
   find_package(ament_lint_auto REQUIRED)
   find_package(ament_lint_auto QUIET)
   if(ament_lint_auto_FOUND)
