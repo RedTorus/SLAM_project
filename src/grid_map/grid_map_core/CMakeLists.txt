@@ -64,7 +64,7 @@ install(
   FILES_MATCHING PATTERN "*.hpp"
 )
 
-# Install additional resources (documentation).
+# Install documentation.
 install(
   DIRECTORY doc
   DESTINATION share/${PROJECT_NAME}
@@ -74,7 +74,7 @@ install(
 ## Config Files ##
 #############
 
-# Configure the package config files using our templates.
+# Configure the package config files using templates.
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/cmake/GridMapCoreConfig.cmake.in"
   "${CMAKE_CURRENT_BINARY_DIR}/grid_map_coreConfig.cmake"
   @ONLY
@@ -92,12 +92,20 @@ install(
   DESTINATION lib/cmake/${PROJECT_NAME}
 )
 
+# Export the targets and install the targets file using CMake's EXPORT mechanism.
+install(
+  EXPORT export_${PROJECT_NAME}
+  FILE ${PROJECT_NAME}Targets.cmake
+  NAMESPACE ${PROJECT_NAME}::
+  DESTINATION lib/cmake/${PROJECT_NAME}
+)
+
 #############
 ## Testing ##
 #############
 
 if(BUILD_TESTING)
-  # Linting (with ament_lint_auto)
+  # Linting setup with ament_lint_auto
   find_package(ament_lint_auto REQUIRED)
   find_package(ament_lint_auto QUIET)
   if(ament_lint_auto_FOUND)
