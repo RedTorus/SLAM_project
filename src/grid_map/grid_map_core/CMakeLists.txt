@@ -48,7 +48,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC Eigen3::Eigen)
 ## Install ##
 #############
 
-# Mark executables and/or libraries for installation
+# Install the library.
 install(
   TARGETS ${PROJECT_NAME}
   EXPORT export_${PROJECT_NAME}
@@ -57,14 +57,14 @@ install(
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
-# Mark C++ header files for installation
+# Install header files from the include folder.
 install(
   DIRECTORY include/
   DESTINATION include/${PROJECT_NAME}
   FILES_MATCHING PATTERN "*.hpp"
 )
 
-# Mark other files (documentation, etc.) for installation
+# Install additional resources (documentation).
 install(
   DIRECTORY doc
   DESTINATION share/${PROJECT_NAME}
@@ -74,7 +74,7 @@ install(
 ## Config Files ##
 #############
 
-# Configure the package config files using the templates.
+# Configure the package config files using our templates.
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/cmake/GridMapCoreConfig.cmake.in"
   "${CMAKE_CURRENT_BINARY_DIR}/grid_map_coreConfig.cmake"
   @ONLY
@@ -97,7 +97,7 @@ install(
 #############
 
 if(BUILD_TESTING)
-  # Setup linting with ament_cpplint.
+  # Linting (with ament_lint_auto)
   find_package(ament_lint_auto REQUIRED)
   find_package(ament_lint_auto QUIET)
   if(ament_lint_auto_FOUND)
@@ -115,7 +115,6 @@ if(BUILD_TESTING)
 
   find_package(ament_cmake_gtest REQUIRED)
 
-  ## Add gtest based C++ test target and link libraries
   ament_add_gtest(${PROJECT_NAME}-test
     test/test_grid_map_core.cpp
     test/test_helpers.cpp
