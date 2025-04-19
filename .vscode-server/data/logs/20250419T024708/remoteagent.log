@@ -1,0 +1,11 @@
+2025-04-19 02:47:08.133 [info] 
+
+
+
+
+2025-04-19 02:47:08.133 [info] Extension host agent started.
+2025-04-19 02:47:08.144 [debug] No extensions are marked as removed.
+2025-04-19 02:47:08.277 [info] [127.0.0.1][23b6aa47][ManagementConnection] New connection established.
+2025-04-19 02:47:08.298 [info] Log level changed to info
+2025-04-19 02:47:08.423 [info] [127.0.0.1][13335d7d][ExtensionHostConnection] New connection established.
+2025-04-19 02:47:08.428 [info] [127.0.0.1][13335d7d][ExtensionHostConnection] <405> Launched Extension Host Process.

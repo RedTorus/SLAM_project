@@ -1,0 +1,141 @@
+Gazebo multi-robot simulator, version 11.15.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1744858374 27475227) [Msg] Waiting for master.
+(1744858374 36207954) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1744858374 36225259) [Msg] Publicized address: 10.0.0.125
+(1744858374 36469596) Loaded .ini file from: "/root/.gazebo/gui.ini"
+(1744858374 38293830) [Err] [RenderEngine.cc:749] Can't open display: :0
+(1744858374 38306733) [Wrn] [RenderEngine.cc:89] Unable to create X window. Rendering will be disabled
+(1744858374 38313423) [Wrn] [RenderEngine.cc:292] Cannot initialize render engine since render path type is NONE. Ignore this warning if rendering has been turned off on purpose.
+(1744858374 38610649) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms" ...
+(1744858374 38657183) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so"
+(1744858374 38707657) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "eglfs"
+        ]
+    },
+    "archreq": 0,
+    "className": "QEglFSIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38723808) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("eglfs")
+(1744858374 38730957) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so"
+(1744858374 38759779) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "linuxfb"
+        ]
+    },
+    "archreq": 0,
+    "className": "QLinuxFbIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38771405) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("linuxfb")
+(1744858374 38778498) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so"
+(1744858374 38805202) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "minimal"
+        ]
+    },
+    "archreq": 0,
+    "className": "QMinimalIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38815406) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("minimal")
+(1744858374 38822364) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so"
+(1744858374 38848096) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "minimalegl"
+        ]
+    },
+    "archreq": 0,
+    "className": "QMinimalEglIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38857806) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("minimalegl")
+(1744858374 38864774) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so"
+(1744858374 38889125) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "offscreen"
+        ]
+    },
+    "archreq": 0,
+    "className": "QOffscreenIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38902966) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("offscreen")
+(1744858374 38909774) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so"
+(1744858374 38934247) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "vnc"
+        ]
+    },
+    "archreq": 0,
+    "className": "QVncIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38943799) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("vnc")
+(1744858374 38950490) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so"
+(1744858374 38972031) [Wrn] [GuiIface.cc:114] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "xcb"
+        ]
+    },
+    "archreq": 0,
+    "className": "QXcbIntegrationPlugin",
+    "debug": false,
+    "version": 330752
+}
+
+
+(1744858374 38980163) [Dbg] [GuiIface.cc:106] Got keys from plugin meta data ("xcb")
+(1744858374 38987136) [Dbg] [GuiIface.cc:106] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platforms" ...
+(1744858374 40196477) [Dbg] [GuiIface.cc:106] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so"
+(1744858374 40307003) [Wrn] [GuiIface.cc:114] could not connect to display :0
+(1744858374 40334942) [Msg] Could not load the Qt platform plugin "xcb" in "" even though it was found.
+(1744858374 40349652) [Err] [GuiIface.cc:118] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
+

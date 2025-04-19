@@ -1,0 +1,26 @@
+2025-04-17 01:58:39.022 [info] Can't use the Electron fetcher in this environment.
+2025-04-17 01:58:39.022 [info] Using the Node fetch fetcher.
+2025-04-17 01:58:39.022 [info] Initializing Git extension service.
+2025-04-17 01:58:39.022 [info] Successfully activated the vscode.git extension.
+2025-04-17 01:58:39.022 [info] Enablement state of the vscode.git extension: true.
+2025-04-17 01:58:39.022 [info] Successfully registered Git commit message provider.
+2025-04-17 01:58:39.412 [info] Logged in as zsqu4re
+2025-04-17 01:58:39.996 [info] Got Copilot token for zsqu4re
+2025-04-17 01:58:40.293 [info] copilot token chat_enabled: true, sku: monthly_subscriber
+2025-04-17 01:58:40.293 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-04-17 01:58:40.303 [info] Registering default platform agent...
+2025-04-17 01:58:40.418 [info] Fetched model metadata in 406ms 0e5a39bc-16b4-41b4-8f4f-59dabdaf3188
+2025-04-17 01:58:40.432 [info] activationBlocker from 'languageModelAccess' took for 1024ms
+2025-04-17 02:03:13.710 [info] message 0 returned. finish reason: [stop]
+2025-04-17 02:03:13.712 [info] request done: requestId: [5ae4f37b-7246-48cb-9422-8911a562a93d] model deployment ID: []
+2025-04-17 02:13:41.106 [info] Fetched model metadata in 343ms 73a2c7f0-4dc7-4a32-a60e-6b39bbca71c1
+2025-04-17 02:28:41.283 [info] Logged in as zsqu4re
+2025-04-17 02:28:41.749 [info] Got Copilot token for zsqu4re
+2025-04-17 02:28:42.499 [info] copilot token chat_enabled: true, sku: monthly_subscriber
+2025-04-17 02:43:43.007 [info] Fetched model metadata in 353ms 06de6422-6c26-4ee6-987f-7b39739979ec
+2025-04-17 02:56:29.263 [info] Logged in as zsqu4re
+2025-04-17 02:56:29.780 [info] Got Copilot token for zsqu4re
+2025-04-17 02:56:30.591 [info] copilot token chat_enabled: true, sku: monthly_subscriber
+2025-04-17 02:56:30.615 [info] Fetched model metadata in 1576ms f67dd612-7d26-4a34-8da8-8c10375fb3d9
+2025-04-17 02:56:32.374 [info] message 0 returned. finish reason: [stop]
+2025-04-17 02:56:32.375 [info] request done: requestId: [22446e29-7213-4ef6-bace-14b4cbca1193] model deployment ID: []
