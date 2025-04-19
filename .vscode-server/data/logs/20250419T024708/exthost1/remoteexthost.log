@@ -12,3 +12,19 @@
 2025-04-19 02:47:50.348 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalCompletionsRequested'
 2025-04-19 02:49:21.440 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
 2025-04-19 02:52:47.125 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-19 03:15:54.178 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+    at B7.setItems (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:26702)
+    at gc._computeFn (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:26434)
+    at gc._recompute (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:20272)
+    at gc.get (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:19894)
+    at gc.reportChanges (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:12384)
+    at K7.endUpdate (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:26219)
+    at YLe (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:25938)
+    at gc.recomputeInitiallyAndOnChange (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:419:12960)
+    at hF.init (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:601:1335)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Timeout._onTimeout (/root/.vscode-server/extensions/github.copilot-chat-0.26.5/dist/extension.js:387:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at processTimers (node:internal/timers:519:7)
