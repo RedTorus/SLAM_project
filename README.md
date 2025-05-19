@@ -109,18 +109,9 @@ Here is the overview of the optimizer modes with their numeric values, use cases
     - **Description**: Parallelized version of the Ceres Solver using OpenMP.
     - **Use Case**: Parallelized optimization for large-scale problems. Ideal for multi-threaded environments where performance is critical, such as optimizing large pose graphs in real-time SLAM.
 
-###### Notes:
-- **Type `5`** is newly added to the optimizer modes and is specifically designed for high-performance applications.
-=======
----
-
 ## Notes
->>>>>>> c94b8235b1a9886885562edf13e37bd8a600d12d
-
+- **Type `5`** is newly added to the optimizer modes and is specifically designed for high-performance applications.
 - Ensure your system has proper GPU drivers installed to support graphics acceleration within Docker.
 - Verify that your local X server allows Docker connections (`xhost +local:docker`) to prevent display issues.
 - All commands provided assume you have ROS and Docker properly installed and configured on your host system.
-<<<<<<< HEAD
 
-=======
->>>>>>> c94b8235b1a9886885562edf13e37bd8a600d12d
