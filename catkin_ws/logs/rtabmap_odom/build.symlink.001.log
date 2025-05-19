@@ -1,0 +1,9 @@
+Symlinking /root/catkin_ws/devel/lib/librtabmap_odom_plugins.so
+Symlinking /root/catkin_ws/devel/lib/librtabmap_odom.so
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_odom.pc
+Symlinking /root/catkin_ws/devel/lib/rtabmap_odom/rgbd_odometry
+Symlinking /root/catkin_ws/devel/lib/rtabmap_odom/rgbdicp_odometry
+Symlinking /root/catkin_ws/devel/lib/rtabmap_odom/stereo_odometry
+Symlinking /root/catkin_ws/devel/lib/rtabmap_odom/icp_odometry
+Symlinking /root/catkin_ws/devel/share/rtabmap_odom/cmake/rtabmap_odomConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_odom/cmake/rtabmap_odomConfig-version.cmake

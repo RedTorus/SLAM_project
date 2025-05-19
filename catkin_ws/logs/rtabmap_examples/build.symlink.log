@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_examples.pc
+Symlinking /root/catkin_ws/devel/lib/rtabmap_examples/external_loop_detection_example
+Symlinking /root/catkin_ws/devel/share/rtabmap_examples/cmake/rtabmap_examplesConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_examples/cmake/rtabmap_examplesConfig.cmake

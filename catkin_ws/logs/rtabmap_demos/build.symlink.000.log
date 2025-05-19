@@ -1,0 +1,8 @@
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_demos.pc
+Symlinking /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_pub.py
+Symlinking /root/catkin_ws/devel/lib/rtabmap_demos/cmake.lock
+Symlinking /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_sub
+Symlinking /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_pub
+Symlinking /root/catkin_ws/devel/lib/rtabmap_demos/save_objects_example
+Symlinking /root/catkin_ws/devel/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake

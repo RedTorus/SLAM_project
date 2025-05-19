@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target rtabmap_external_loop_detection_example[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_external_loop_detection_example.dir/src/ExternalLoopDetectionExample.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_examples/lib/rtabmap_examples/external_loop_detection_example[0m
+[100%] Built target rtabmap_external_loop_detection_example

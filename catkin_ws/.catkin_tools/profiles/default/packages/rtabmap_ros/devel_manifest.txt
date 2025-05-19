@@ -1,0 +1,5 @@
+rtabmap_ros/rtabmap_ros
+/root/catkin_ws/devel/.private/rtabmap_ros/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_ros/lib/pkgconfig/rtabmap_ros.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_ros.pc
+/root/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+/root/catkin_ws/devel/.private/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake /root/catkin_ws/devel/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake

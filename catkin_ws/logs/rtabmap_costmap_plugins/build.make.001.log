@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target rtabmap_costmap_plugins[0m
+[35m[1mScanning dependencies of target rtabmap_costmap_voxel_markers[0m
+[35m[1mScanning dependencies of target rtabmap_costmap_plugins2[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_costmap_voxel_markers.dir/src/voxel_markers.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_costmap_plugins.dir/src/static_layer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_costmap_plugins2.dir/src/voxel_layer.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/rtabmap_costmap_plugins/voxel_markers[0m
+[ 66%] Built target rtabmap_costmap_voxel_markers
+[ 83%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/librtabmap_costmap_plugins.so[0m
+[ 83%] Built target rtabmap_costmap_plugins
+[100%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/librtabmap_costmap_plugins2.so[0m
+[100%] Built target rtabmap_costmap_plugins2

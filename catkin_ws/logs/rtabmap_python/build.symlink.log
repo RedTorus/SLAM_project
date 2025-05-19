@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_python/__init__.py
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_python.pc
+Symlinking /root/catkin_ws/devel/share/rtabmap_python/cmake/rtabmap_pythonConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_python/cmake/rtabmap_pythonConfig.cmake

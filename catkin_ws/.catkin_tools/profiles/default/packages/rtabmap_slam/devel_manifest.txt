@@ -1,0 +1,7 @@
+rtabmap_ros/rtabmap_slam
+/root/catkin_ws/devel/.private/rtabmap_slam/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_slam/lib/librtabmap_slam_plugins.so /root/catkin_ws/devel/lib/librtabmap_slam_plugins.so
+/root/catkin_ws/devel/.private/rtabmap_slam/lib/rtabmap_slam/rtabmap /root/catkin_ws/devel/lib/rtabmap_slam/rtabmap
+/root/catkin_ws/devel/.private/rtabmap_slam/lib/pkgconfig/rtabmap_slam.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_slam.pc
+/root/catkin_ws/devel/.private/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake /root/catkin_ws/devel/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+/root/catkin_ws/devel/.private/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake

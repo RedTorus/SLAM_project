@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target rtabmap_wifi_signal_sub[0m
+[35m[1mScanning dependencies of target rtabmap_save_objects_example[0m
+[35m[1mScanning dependencies of target rtabmap_wifi_signal_pub[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_wifi_signal_pub.dir/src/WifiSignalPubNode.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_save_objects_example.dir/src/SaveObjectsExample.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_wifi_signal_sub.dir/src/WifiSignalSubNode.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub[0m
+[ 66%] Built target rtabmap_wifi_signal_pub
+[ 83%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/save_objects_example[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/wifi_signal_sub[0m
+[100%] Built target rtabmap_wifi_signal_sub
+[100%] Built target rtabmap_save_objects_example

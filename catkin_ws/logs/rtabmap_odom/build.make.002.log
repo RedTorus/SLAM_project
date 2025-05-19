@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target rtabmap_odom[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/PluginInterface.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rtabmap_odom.dir/src/OdometryROS.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_odom/lib/librtabmap_odom.so[0m
+[ 18%] Built target rtabmap_odom
+[35m[1mScanning dependencies of target rtabmap_odom_plugins[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/rgbdicp_odometry.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_plugins.dir/src/nodelets/icp_odometry.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_odom/lib/librtabmap_odom_plugins.so[0m
+[ 50%] Built target rtabmap_odom_plugins
+[35m[1mScanning dependencies of target rtabmap_rgbdicp_odometry[0m
+[35m[1mScanning dependencies of target rtabmap_icp_odometry[0m
+[35m[1mScanning dependencies of target rtabmap_stereo_odometry[0m
+[35m[1mScanning dependencies of target rtabmap_rgbd_odometry[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdicp_odometry.dir/src/RGBDICPOdometryNode.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_odom/lib/rtabmap_odom/rgbd_odometry[0m
+[ 87%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_odom/lib/rtabmap_odom/icp_odometry[0m
+[ 93%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_odom/lib/rtabmap_odom/rgbdicp_odometry[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_odom/lib/rtabmap_odom/stereo_odometry[0m
+[100%] Built target rtabmap_rgbd_odometry
+[100%] Built target rtabmap_icp_odometry
+[100%] Built target rtabmap_rgbdicp_odometry
+[100%] Built target rtabmap_stereo_odometry

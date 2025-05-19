@@ -1,0 +1,15 @@
+rtabmap_ros/rtabmap_legacy
+/root/catkin_ws/devel/.private/rtabmap_legacy/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/librtabmap_legacy_plugins.so /root/catkin_ws/devel/lib/librtabmap_legacy_plugins.so
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/rtabmap_legacy/stereo_camera /root/catkin_ws/devel/lib/rtabmap_legacy/stereo_camera
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/rtabmap_legacy/camera /root/catkin_ws/devel/lib/rtabmap_legacy/camera
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/python3/dist-packages/rtabmap_legacy/__init__.py /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/__init__.py
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/python3/dist-packages/rtabmap_legacy/cfg/CameraConfig.py /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/cfg/CameraConfig.py
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/python3/dist-packages/rtabmap_legacy/cfg/__init__.py /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/cfg/__init__.py
+/root/catkin_ws/devel/.private/rtabmap_legacy/lib/pkgconfig/rtabmap_legacy.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_legacy.pc
+/root/catkin_ws/devel/.private/rtabmap_legacy/share/rtabmap_legacy/cmake/rtabmap_legacyConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_legacy/cmake/rtabmap_legacyConfig-version.cmake
+/root/catkin_ws/devel/.private/rtabmap_legacy/share/rtabmap_legacy/cmake/rtabmap_legacyConfig.cmake /root/catkin_ws/devel/share/rtabmap_legacy/cmake/rtabmap_legacyConfig.cmake
+/root/catkin_ws/devel/.private/rtabmap_legacy/share/rtabmap_legacy/docs/CameraConfig.wikidoc /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig.wikidoc
+/root/catkin_ws/devel/.private/rtabmap_legacy/share/rtabmap_legacy/docs/CameraConfig-usage.dox /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig-usage.dox
+/root/catkin_ws/devel/.private/rtabmap_legacy/share/rtabmap_legacy/docs/CameraConfig.dox /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig.dox
+/root/catkin_ws/devel/.private/rtabmap_legacy/include/rtabmap_legacy/CameraConfig.h /root/catkin_ws/devel/include/rtabmap_legacy/CameraConfig.h

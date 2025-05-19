@@ -1,0 +1,8 @@
+rtabmap_ros/rtabmap_costmap_plugins
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/librtabmap_costmap_plugins.so /root/catkin_ws/devel/lib/librtabmap_costmap_plugins.so
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/librtabmap_costmap_plugins2.so /root/catkin_ws/devel/lib/librtabmap_costmap_plugins2.so
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/rtabmap_costmap_plugins/voxel_markers /root/catkin_ws/devel/lib/rtabmap_costmap_plugins/voxel_markers
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/lib/pkgconfig/rtabmap_costmap_plugins.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_costmap_plugins.pc
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig.cmake /root/catkin_ws/devel/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig.cmake
+/root/catkin_ws/devel/.private/rtabmap_costmap_plugins/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsConfig-version.cmake

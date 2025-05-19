@@ -1,0 +1,10 @@
+rtabmap_ros/rtabmap_demos
+/root/catkin_ws/devel/.private/rtabmap_demos/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/pkgconfig/rtabmap_demos.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_demos.pc
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub.py /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_pub.py
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/cmake.lock /root/catkin_ws/devel/lib/rtabmap_demos/cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/wifi_signal_sub /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_sub
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub /root/catkin_ws/devel/lib/rtabmap_demos/wifi_signal_pub
+/root/catkin_ws/devel/.private/rtabmap_demos/lib/rtabmap_demos/save_objects_example /root/catkin_ws/devel/lib/rtabmap_demos/save_objects_example
+/root/catkin_ws/devel/.private/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake /root/catkin_ws/devel/share/rtabmap_demos/cmake/rtabmap_demosConfig.cmake
+/root/catkin_ws/devel/.private/rtabmap_demos/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_demos/cmake/rtabmap_demosConfig-version.cmake

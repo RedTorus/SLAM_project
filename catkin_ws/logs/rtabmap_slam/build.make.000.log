@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target rtabmap_node[0m
+[35m[1mScanning dependencies of target rtabmap_slam_plugins[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_node.dir/src/CoreNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_slam_plugins.dir/src/CoreWrapper.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_slam/lib/rtabmap_slam/rtabmap[0m
+[ 75%] Built target rtabmap_node
+[100%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_slam/lib/librtabmap_slam_plugins.so[0m
+[100%] Built target rtabmap_slam_plugins

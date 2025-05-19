@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/librtabmap_rviz_plugins.so
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_rviz_plugins.pc
+Symlinking /root/catkin_ws/devel/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_rviz_plugins/cmake/rtabmap_rviz_pluginsConfig-version.cmake

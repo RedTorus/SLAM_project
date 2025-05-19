@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/rtabmap_viz/rtabmap_viz
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_viz.pc
+Symlinking /root/catkin_ws/devel/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake

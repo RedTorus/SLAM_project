@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target rtabmap_viz_autogen[0m
+[ 16%] [34m[1mAutomatic MOC and UIC for target rtabmap_viz[0m
+[ 16%] Built target rtabmap_viz_autogen
+[35m[1mScanning dependencies of target rtabmap_viz[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/rtabmap_viz_autogen/mocs_compilation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz[0m
+[100%] Built target rtabmap_viz

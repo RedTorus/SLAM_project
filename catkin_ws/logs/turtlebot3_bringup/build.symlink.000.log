@@ -1,0 +1,4 @@
+Symlinking /root/catkin_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/turtlebot3_bringup.pc
+Symlinking /root/catkin_ws/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake

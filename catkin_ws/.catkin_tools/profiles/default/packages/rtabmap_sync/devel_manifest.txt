@@ -1,0 +1,12 @@
+rtabmap_ros/rtabmap_sync
+/root/catkin_ws/devel/.private/rtabmap_sync/cmake.lock /root/catkin_ws/devel/./cmake.lock
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/librtabmap_sync.so /root/catkin_ws/devel/lib/librtabmap_sync.so
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/librtabmap_sync_plugins.so /root/catkin_ws/devel/lib/librtabmap_sync_plugins.so
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/pkgconfig/rtabmap_sync.pc /root/catkin_ws/devel/lib/pkgconfig/rtabmap_sync.pc
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync /root/catkin_ws/devel/lib/rtabmap_sync/rgbdx_sync
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/rtabmap_sync/stereo_sync /root/catkin_ws/devel/lib/rtabmap_sync/stereo_sync
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/rtabmap_sync/rgb_sync /root/catkin_ws/devel/lib/rtabmap_sync/rgb_sync
+/root/catkin_ws/devel/.private/rtabmap_sync/lib/rtabmap_sync/rgbd_sync /root/catkin_ws/devel/lib/rtabmap_sync/rgbd_sync
+/root/catkin_ws/devel/.private/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake /root/catkin_ws/devel/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+/root/catkin_ws/devel/.private/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake /root/catkin_ws/devel/share/rtabmap_sync/cmake/extra_configs.cmake
+/root/catkin_ws/devel/.private/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake /root/catkin_ws/devel/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake

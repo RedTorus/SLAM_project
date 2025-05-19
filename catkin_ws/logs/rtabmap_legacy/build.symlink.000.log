@@ -1,0 +1,13 @@
+Symlinking /root/catkin_ws/devel/lib/librtabmap_legacy_plugins.so
+Symlinking /root/catkin_ws/devel/lib/rtabmap_legacy/stereo_camera
+Symlinking /root/catkin_ws/devel/lib/rtabmap_legacy/camera
+Symlinking /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/__init__.py
+Symlinking /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/cfg/CameraConfig.py
+Symlinking /root/catkin_ws/devel/lib/python3/dist-packages/rtabmap_legacy/cfg/__init__.py
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_legacy.pc
+Symlinking /root/catkin_ws/devel/share/rtabmap_legacy/cmake/rtabmap_legacyConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_legacy/cmake/rtabmap_legacyConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig.wikidoc
+Symlinking /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig-usage.dox
+Symlinking /root/catkin_ws/devel/share/rtabmap_legacy/docs/CameraConfig.dox
+Symlinking /root/catkin_ws/devel/include/rtabmap_legacy/CameraConfig.h

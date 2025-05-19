@@ -1,0 +1,10 @@
+Symlinking /root/catkin_ws/devel/lib/librtabmap_sync.so
+Symlinking /root/catkin_ws/devel/lib/librtabmap_sync_plugins.so
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_sync.pc
+Symlinking /root/catkin_ws/devel/lib/rtabmap_sync/rgbdx_sync
+Symlinking /root/catkin_ws/devel/lib/rtabmap_sync/stereo_sync
+Symlinking /root/catkin_ws/devel/lib/rtabmap_sync/rgb_sync
+Symlinking /root/catkin_ws/devel/lib/rtabmap_sync/rgbd_sync
+Symlinking /root/catkin_ws/devel/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_sync/cmake/extra_configs.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake

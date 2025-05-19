@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target rtabmap_msgs_generate_messages_cpp[0m
+[  0%] Built target rtabmap_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rtabmap_conversions[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_conversions/lib/librtabmap_conversions.so[0m
+[100%] Built target rtabmap_conversions

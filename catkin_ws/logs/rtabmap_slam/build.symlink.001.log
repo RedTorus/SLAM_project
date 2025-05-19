@@ -1,0 +1,5 @@
+Symlinking /root/catkin_ws/devel/lib/librtabmap_slam_plugins.so
+Symlinking /root/catkin_ws/devel/lib/rtabmap_slam/rtabmap
+Symlinking /root/catkin_ws/devel/lib/pkgconfig/rtabmap_slam.pc
+Symlinking /root/catkin_ws/devel/share/rtabmap_slam/cmake/rtabmap_slamConfig.cmake
+Symlinking /root/catkin_ws/devel/share/rtabmap_slam/cmake/rtabmap_slamConfig-version.cmake

@@ -1,0 +1,70 @@
+[35m[1mScanning dependencies of target rtabmap_pointcloud_to_depthimage[0m
+[  2%] [32mBuilding CXX object CMakeFiles/rtabmap_pointcloud_to_depthimage.dir/src/PointCloudToDepthImageNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_util_plugins[0m
+[  5%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/pointcloud_to_depthimage[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[  8%] Built target rtabmap_pointcloud_to_depthimage
+[ 11%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyzrgb.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_odom_msg_to_tf[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_odom_msg_to_tf.dir/src/OdomMsgToTFNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_rgbd_split[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_split.dir/src/RGBDSplitNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_rgbd_relay[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/rgbd_split[0m
+[ 28%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/rgbd_relay[0m
+[35m[1mScanning dependencies of target rtabmap_point_cloud_aggregator[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_aggregator.dir/src/PointCloudAggregatorNode.cpp.o[0m
+[ 31%] Built target rtabmap_rgbd_split
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/disparity_to_depth.cpp.o[0m
+[ 34%] Built target rtabmap_rgbd_relay
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/pointcloud_to_depthimage.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/point_cloud_aggregator[0m
+[35m[1mScanning dependencies of target rtabmap_data_player[0m
+[ 42%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/odom_msg_to_tf[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rtabmap_data_player.dir/src/DbPlayerNode.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[ 48%] Built target rtabmap_point_cloud_aggregator
+[35m[1mScanning dependencies of target rtabmap_point_cloud_assembler[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_map_optimizer[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rtabmap_map_optimizer.dir/src/MapOptimizerNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_imu_to_tf[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_imu_to_tf.dir/src/ImuToTFNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_lidar_deskewing[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_lidar_deskewing.dir/src/LidarDeskewingNode.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/point_cloud_assembler[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/imu_to_tf[0m
+[ 71%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/lidar_deskewing[0m
+[ 71%] Built target rtabmap_odom_msg_to_tf
+[ 74%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[ 74%] Built target rtabmap_point_cloud_assembler
+[ 77%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/lidar_deskewing.cpp.o[0m
+[ 80%] Built target rtabmap_imu_to_tf
+[ 82%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/rgbd_split.cpp.o[0m
+[ 85%] Built target rtabmap_lidar_deskewing
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:226:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraInfo[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  226 |  rtabmap::CameraInfo [01;35m[KcameraInfo[m[K;
+      |                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCapture.h:32[m[K,
+                 from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/Camera.h:31[m[K,
+                 from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/DBReader.h:35[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:51[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h:80:46:[m[K [01;36m[Knote: [m[Kdeclared here
+   80 | RTABMAP_DEPRECATED typedef SensorCaptureInfo [01;36m[KCameraInfo[m[K;
+      |                                              [01;36m[K^~~~~~~~~~[m[K
+[ 88%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/map_optimizer[0m
+[ 91%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/data_player[0m
+[ 91%] Built target rtabmap_map_optimizer
+[ 91%] Built target rtabmap_data_player
+[ 94%] [32m[1mLinking CXX shared library /root/catkin_ws/devel/.private/rtabmap_util/lib/librtabmap_util_plugins.so[0m
+[ 94%] Built target rtabmap_util_plugins
+[35m[1mScanning dependencies of target rtabmap_map_assembler[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/rtabmap_map_assembler.dir/src/MapAssemblerNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /root/catkin_ws/devel/.private/rtabmap_util/lib/rtabmap_util/map_assembler[0m
+[100%] Built target rtabmap_map_assembler

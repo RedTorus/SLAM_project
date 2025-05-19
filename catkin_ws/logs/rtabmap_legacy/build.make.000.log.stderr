@@ -1,0 +1,34 @@
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:251:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraThread[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  251 |  rtabmap::CameraThread * [01;35m[KcameraThread_[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/CameraThread.h:30[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:37[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h:214:48:[m[K [01;36m[Knote: [m[Kdeclared here
+  214 | RTABMAP_DEPRECATED typedef SensorCaptureThread [01;36m[KCameraThread[m[K;
+      |                                                [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:[m[K In member function ‘[01m[Kvoid CameraWrapper::setParameters(int, double, const string&, bool)[m[K’:
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:212:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraThread[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  212 |    cameraThread_ = new rtabmap::[01;35m[KCameraThread[m[K(camera_);
+      |                                 [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/CameraThread.h:30[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:37[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCaptureThread.h:214:48:[m[K [01;36m[Knote: [m[Kdeclared here
+  214 | RTABMAP_DEPRECATED typedef SensorCaptureThread [01;36m[KCameraThread[m[K;
+      |                                                [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:[m[K In member function ‘[01m[Kvirtual bool CameraWrapper::handleEvent(UEvent*)[m[K’:
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:226:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraEvent[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  226 |    rtabmap::CameraEvent * [01;35m[Ke[m[K = (rtabmap::CameraEvent*)event;
+      |                           [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/CameraEvent.h:30[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:38[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorEvent.h:92:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 | RTABMAP_DEPRECATED typedef SensorEvent [01;36m[KCameraEvent[m[K;
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:226:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraEvent[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  226 |    rtabmap::CameraEvent * e = (rtabmap::CameraEvent[01;35m[K*[m[K)event;
+      |                                                    [01;35m[K^[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/CameraEvent.h:30[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_legacy/src/CameraNode.cpp:38[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorEvent.h:92:40:[m[K [01;36m[Knote: [m[Kdeclared here
+   92 | RTABMAP_DEPRECATED typedef SensorEvent [01;36m[KCameraEvent[m[K;
+      |                                        [01;36m[K^~~~~~~~~~~[m[K

@@ -1,0 +1,11 @@
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:226:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Krtabmap::CameraInfo[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  226 |  rtabmap::CameraInfo [01;35m[KcameraInfo[m[K;
+      |                      [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCapture.h:32[m[K,
+                 from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/Camera.h:31[m[K,
+                 from [01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/DBReader.h:35[m[K,
+                 from [01m[K/root/catkin_ws/src/rtabmap_ros/rtabmap_util/src/DbPlayerNode.cpp:51[m[K:
+[01m[K/usr/local/include/rtabmap-0.21/rtabmap/core/SensorCaptureInfo.h:80:46:[m[K [01;36m[Knote: [m[Kdeclared here
+   80 | RTABMAP_DEPRECATED typedef SensorCaptureInfo [01;36m[KCameraInfo[m[K;
+      |                                              [01;36m[K^~~~~~~~~~[m[K
